@@ -1,0 +1,11 @@
+.bg{
+    background-color: aqua;
+}
+p{
+    font-weight: bold;
+}
+.contentCenter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
