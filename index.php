@@ -4,6 +4,7 @@ if (file_exists('source.xml')) {
 } else {
     exit('Echec lors de l\'ouverture du fichier source.xml.');
 }
+
 $show = 0 ;
 
 if (isset($_GET["page"]) && $_GET["page"] == "accueil") {
@@ -27,7 +28,7 @@ if (isset($_GET["page"]) && $_GET["page"] == "contact") {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>ORCODO</title>
+    <title>ORCODO TEST NICO</title>
 </head>
 
 <body>
