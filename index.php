@@ -4,23 +4,19 @@ if (file_exists('source.xml')) {
 } else {
     exit('Echec lors de l\'ouverture du fichier source.xml.');
 }
-$showHome = false;
-$showUs = false ; 
-$showClient = false ;
-$showContact = false ;
+$show = 0 ;
 
-
-if(isset($_GET["page"]) && $_GET["page"] == "accueil"){
-    $showHome = true ;
+if (isset($_GET["page"]) && $_GET["page"] == "accueil") {
+    $show= 0;
 }
-if(isset($_GET["page"]) && $_GET["page"] == "quiSommesNous"){
-    $showUs = true ;
+if (isset($_GET["page"]) && $_GET["page"] == "quiSommesNous") {
+    $show = 1;
 }
-if(isset($_GET["page"]) && $_GET["page"] == "nosClients"){
-    $showClient = true ;
+if (isset($_GET["page"]) && $_GET["page"] == "nosClients") {
+    $show = 2;
 }
-if(isset($_GET["page"]) && $_GET["page"] == "contact"){
-    $showContact = true ;
+if (isset($_GET["page"]) && $_GET["page"] == "contact") {
+    $show = 3;
 }
 ?>
 
@@ -36,39 +32,23 @@ if(isset($_GET["page"]) && $_GET["page"] == "contact"){
 
 <body>
     <div class="bg contentCenter">
-        <a type="button" href="index.php?page=accueil"><h2><?php echo $xml->page[0]->menu; ?></h2></a>
-        <a type="button" href="index.php?page=quiSommesNous"><h2><?php echo $xml->page[1]->menu; ?></h2></a>
-        <a type="button" href="index.php?page=nosClients"><h2><?php echo $xml->page[2]->menu; ?></h2></a>
-        <a type="button" href="index.php?page=contact"><h2><?php echo $xml->page[3]->menu; ?></h2></a>
+        <a type="button" href="index.php?page=accueil">
+            <h2><?php echo $xml->page[0]->menu; ?></h2>
+        </a>
+        <a type="button" href="index.php?page=quiSommesNous">
+            <h2><?php echo $xml->page[1]->menu; ?></h2>
+        </a>
+        <a type="button" href="index.php?page=nosClients">
+            <h2><?php echo $xml->page[2]->menu; ?></h2>
+        </a>
+        <a type="button" href="index.php?page=contact">
+            <h2><?php echo $xml->page[3]->menu; ?></h2>
+        </a>
     </div>
-    <?php if ($showHome == true) { ?>
-        <div class="bg h1">
-            <?php
-            echo $xml->page[0]->content;
-            ?>
-        </div>
-    <?php } ?>
-    <?php if ($showUs == true) { ?>
-        <div class="bg h1">
-            <?php
-            echo $xml->page[1]->content;
-            ?>
-        </div>
-    <?php } ?>
-    <?php if ($showClient == true) { ?>
-        <div class="bg h1">
-            <?php
-            echo $xml->page[2]->content;
-            ?>
-        </div>
-    <?php } ?>
-    <?php if ($showContact == true) { ?>
-        <div class="bg h1">
-            <?php
-            echo $xml->page[3]->content;
-            ?>
-        </div>
-    <?php } ?>
+    <?php if(isset($show)){
+         echo $xml->page[$show]->content;
+    }
+    ?>
 </body>
 
 </html>
