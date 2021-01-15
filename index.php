@@ -51,6 +51,11 @@ if (isset($_GET["page"]) && $_GET["page"] == "contact") {
          echo $xml->page[$show]->content;
     }
     ?>
+    <div>
+    <footer>
+    <p>© 2021 Nico - Flavie - Victor - Houlé</p>
+    </footer>
+    </div>
 </body>
 
 </html>

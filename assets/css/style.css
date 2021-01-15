@@ -1,5 +1,5 @@
 .bg{
-    background-color: red;
+    background-color: #343540;
 }
 p{
     font-weight: bold;
@@ -8,4 +8,23 @@ p{
     display: flex ;
     flex-direction: row;
     justify-content: space-around;
+}
+
+footer{
+    background-color: #343540;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+p{
+    justify-content: center;
+    width: 350px;
+   text-align: justify;
+    margin-left: 10rem;
 }
