@@ -14,7 +14,17 @@ p{
 a{
     color:white ;
 }
-
-.title{
-    color:;
+.justifyContentCenter{
+    display: flex ;
+    flex-direction: row ; 
+    justify-content: center ;
 }
+.justifyContentCenterCol{
+    display: flex ;
+    flex-direction: column ; 
+    justify-content: center ;
+}
+.navbar-toggler-icon{
+    background-image: url(../img/white-menu-icon-12.jpg)!important;
+}
+

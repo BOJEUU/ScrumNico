@@ -8,7 +8,7 @@ if (file_exists('source.xml')) {
 $show = 0;
 
 if (isset($_GET["page"]) && $_GET["page"] == "accueil") {
-    $show= 0;
+    $show = 0;
 }
 if (isset($_GET["page"]) && $_GET["page"] == "quiSommesNous") {
     $show = 1;
@@ -30,37 +30,50 @@ if (isset($_GET["page"]) && $_GET["page"] == "contact") {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-  
+
     <title>ORCODO TEST NICO</title>
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand  text-white" href="#">Maçonnerie Ocordo</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand  text-light">Maçonnerie Ocordo</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse d-flex flex justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link text-light" aria-current="page" href="1.html"><?php echo $xml->page[0]->menu; ?></a>
-                    <a class="nav-link text-light" href="2.html"><?php echo $xml->page[1]->menu; ?></a>
-                    <a class="nav-link text-light" href="3.html"><?php echo $xml->page[2]->menu; ?></a>
-                    <a class="nav-link text-light" href="4.html"><?php echo $xml->page[3]->menu; ?></a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex justify-content-lg-end justify-content-start w-100">
+                     <ul class="navbar-nav mb-2 mb-lg-0 text-light">
+                    <li class="nav-item">
+                        <a class="nav-link active text-light" href="1.html"><?php echo $xml->page[0]->menu; ?></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="2.html"><?php echo $xml->page[1]->menu; ?></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="3.html"><?php echo $xml->page[2]->menu; ?></a>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="4.html"><?php echo $xml->page[3]->menu; ?></a>
+                    </li>
+                </ul>
                 </div>
+               
             </div>
         </div>
     </nav>
 
 
 
-   
-    <?php if(isset($show)){
-         echo $xml->page[$show]->content;
+    <?php if (isset($show)) {
+        echo $xml->page[$show]->content;
     }
     ?>
+<<<<<<< HEAD
   
      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+=======
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+>>>>>>> 9aade046bfd0777aaf26cdf5b29aa9172372fad7
 
 </body>
 
