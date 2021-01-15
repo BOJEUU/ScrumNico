@@ -19,6 +19,7 @@ if (isset($_GET["page"]) && $_GET["page"] == "nosClients") {
 if (isset($_GET["page"]) && $_GET["page"] == "contact") {
     $show = 3;
 }
+
 ?>
 
 <!DOCTYPE html>
@@ -33,16 +34,16 @@ if (isset($_GET["page"]) && $_GET["page"] == "contact") {
 
 <body>
     <div class="bg contentCenter">
-        <a type="button" href="index.php?page=accueil">
+        <a type="button" href="1.html">
             <h2><?php echo $xml->page[0]->menu; ?></h2>
         </a>
-        <a type="button" href="index.php?page=quiSommesNous">
+        <a type="button" href="2.html">
             <h2><?php echo $xml->page[1]->menu; ?></h2>
         </a>
-        <a type="button" href="index.php?page=nosClients">
+        <a type="button" href="3.html">
             <h2><?php echo $xml->page[2]->menu; ?></h2>
         </a>
-        <a type="button" href="index.php?page=contact">
+        <a type="button" href="4.html">
             <h2><?php echo $xml->page[3]->menu; ?></h2>
         </a>
     </div>
