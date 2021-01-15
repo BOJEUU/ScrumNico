@@ -1,42 +1,46 @@
-.bg{
-<<<<<<< HEAD
-    background-color: #343540;
-=======
-    background-color: rgb(134, 129, 129);
->>>>>>> 43bf4bb4e184bace52202db410266a1b3de46319
-}
-p{
-    font-weight: bold;
-    text-align: center;
-}
+
 .contentCenter{
     display: flex ;
     flex-direction: row;
     justify-content: space-around;
 }
 
-footer{
-    background-color: #343540;
+#titlePageTemoignage{
     text-align: center;
+    margin-bottom: 1em;
+    color: #353540;
+    font-size: 3em;
+    margin-top: 1em;
+    margin-top: 2em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.titleTwo{
+    color:white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.testimonials-list{
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 1.2em;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #353540;
     color: white;
+    height: 25em;
 }
 
-h1{
-    text-align: center;
-}
-h2{
-    text-align: center;
-}
-p{
-    justify-content: center;
-    width: 350px;
-   text-align: justify;
-    margin-left: 10rem;
-}
 a{
-    color:white ;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1em;
+
 }
 
-.title{
-    color: black;
-}

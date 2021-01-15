@@ -65,15 +65,15 @@ bénéficier de prix très compétitifs et d’un excellent rapport qualité/pri
     <page id="3">
         <menu>Nos clients témoignent</menu>
         <title>Avis clients - Maçonnerie Ocordo</title>
-        <content><![CDATA[<h1>Nos clients témoignent</h1>
+        <content><![CDATA[<h1 id="titlePageTemoignage">Nos clients témoignent</h1>
 <div class="testimonials-list">
-    <div class="quote">
-        <h2>Rénovation transformation</h2>
-        <p>Transformation rénovation d’un garage et refaire les murs ( placo), l’electricité (prises, eclairage leds ),le sol ( carrelage), les peintures et changement d’une porte-fenêtre. Devis: précis et rapide Prestations au rythme convenu, réalisation des travaux sans failles, très bonnes prestation Chantier: propreté absolue et nettoyage complet à la fin. Bémol : 2 jours de retard à cause du retard de livraison de la fenêtre, mais vraiment pas grave. Prix: très raisonnable Je recommande Ocordo pour l’efficacité du travail réalisé en amont: devis, tarifs. Ils connaissent le travail.</p>
-        <p>BrunoPH</p>
+    <div class="quoteOne">
+        <h2 class="titleTwo">Rénovation transformation</h2>
+        <p class="col-12">Transformation rénovation d’un garage et refaire les murs ( placo), l’electricité (prises, eclairage leds ),le sol ( carrelage), les peintures et changement d’une porte-fenêtre. Devis: précis et rapide Prestations au rythme convenu, réalisation des travaux sans failles, très bonnes prestation Chantier: propreté absolue et nettoyage complet à la fin. Bémol : 2 jours de retard à cause du retard de livraison de la fenêtre, mais vraiment pas grave. Prix: très raisonnable Je recommande Ocordo pour l’efficacité du travail réalisé en amont: devis, tarifs. Ils connaissent le travail.</p>
+        <p class="col-12">BrunoPH</p>
     </div>
-    <div class="quote">
-        <h2>Sérieux</h2>
+    <div class="quoteTwo">
+        <h2 class="titleTwo" >Sérieux</h2>
         <p>Nous sommes satisfait du travail de cette entreprise qui a rénové notre maison quand nous sommes arrivés à lille. il y avait tout a rénové et leur commercial a su nous consacrer du temps pour nous proposer un projet qui convenait à notre gout et à notre budget. les travaux ont été bien fait à part un petit détail au niveau de la fourniture de la robineterie de la cuisine mais sans gravité</p>
         <p>PJ9e7S9L</p>
     </div>
