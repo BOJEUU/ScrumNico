@@ -32,7 +32,7 @@ if (isset($_GET["page"]) && $_GET["page"] == "contact") {
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>ORCODO TEST NICO</title>
+    <title>ORCODO TESTE NICO</title>
 </head>
 
 <body>
