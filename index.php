@@ -5,7 +5,7 @@ if (file_exists('source.xml')) {
     exit('Echec lors de l\'ouverture du fichier source.xml.');
 }
 
-$show = 0 ;
+$show = 0;
 
 if (isset($_GET["page"]) && $_GET["page"] == "accueil") {
     $show= 0;

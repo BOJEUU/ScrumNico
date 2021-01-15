@@ -1,4 +1,5 @@
 RewriteEngine on
+
 RewriteRule ^1.html$ index.php?page=accueil
 RewriteRule ^2.html$ index.php?page=quiSommesNous
 RewriteRule ^3.html$ index.php?page=nosClients
