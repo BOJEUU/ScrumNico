@@ -14,7 +14,8 @@ p{
 a{
     color:white ;
 }
-
-.title{
-    color:;
+.contactCenter{
+    display: flex ;
+    flex-direction: row ; 
+    justify-content: center ;
 }
