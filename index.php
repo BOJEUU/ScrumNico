@@ -62,10 +62,12 @@ if (isset($_GET["page"]) && $_GET["page"] == "contact") {
             </div>
         </div>
     </nav>
+    <div class="p-2">
     <?php if (isset($show)) {
         echo $xml->page[$show]->content;
     }
     ?>
+    </div>
     <footer>
         <div class="container-fluid text-center bg-dark shadow text-white  ">
             <div class="row">
