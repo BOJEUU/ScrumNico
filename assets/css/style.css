@@ -1,10 +1,17 @@
 
+p{
+    font-weight: bold;
+    text-align: left;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    font-style: italic;
+}
+
 .contentCenter{
     display: flex ;
     flex-direction: row;
     justify-content: space-around;
 }
-
 #titlePageTemoignage{
     text-align: center;
     margin-bottom: 1em;
@@ -38,9 +45,25 @@
     height: 25em;
 }
 
-a{
+.aa{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 1em;
-
+}
+li{
+    list-style: none;
+    text-align: center;
+}
+.justifyContentCenter{
+    display: flex ;
+    flex-direction: row ; 
+    justify-content: center ;
+}
+.justifyContentCenterCol{
+    display: flex ;
+    flex-direction: column ; 
+    justify-content: center ;
+}
+.navbar-toggler-icon{
+    background-image: url(../img/white-menu-icon-12.jpg)!important;
 }
 
