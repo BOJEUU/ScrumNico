@@ -24,4 +24,7 @@ a{
     flex-direction: column ; 
     justify-content: center ;
 }
+.navbar-toggler-icon{
+    background-image: url(../img/white-menu-icon-12.jpg)!important;
+}
 
