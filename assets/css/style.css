@@ -14,8 +14,14 @@ p{
 a{
     color:white ;
 }
-.contactCenter{
+.justifyContentCenter{
     display: flex ;
     flex-direction: row ; 
     justify-content: center ;
 }
+.justifyContentCenterCol{
+    display: flex ;
+    flex-direction: column ; 
+    justify-content: center ;
+}
+
