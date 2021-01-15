@@ -3,7 +3,7 @@
     <page id="1">
         <menu>Accueil</menu>
         <title>Accueil - Maçonnerie Ocordo</title>
-        <content><![CDATA[<h1>Maçonnerie Ocordo</h1>
+        <content><![CDATA[<h1 class="title">Maçonnerie Ocordo</h1>
 <p>Nous sommes un groupement permanent d’entreprises locales du bâtiment spécialisées dans les travaux de rénovation de maisons et de construction d’extensions horizontales ou verticales de maisons.</p>
 <p>Nous sommes capables de gérer un projet de rénovation ou d’extension de A à Z grâce à nos entreprises générales de bâtiment partenaires.</p>
 <p>Nous pouvons assurer tous vos travaux de tout corps d’état.</p>

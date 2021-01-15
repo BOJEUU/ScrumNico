@@ -1,11 +1,20 @@
 .bg{
-    background-color: red;
+    background-color: rgb(134, 129, 129);
 }
 p{
     font-weight: bold;
+    text-align: center;
 }
 .contentCenter{
     display: flex ;
     flex-direction: row;
     justify-content: space-around;
+}
+
+a{
+    color:white ;
+}
+
+.title{
+    color:;
 }
