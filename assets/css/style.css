@@ -1,8 +1,13 @@
 .bg{
+<<<<<<< HEAD
     background-color: #343540;
+=======
+    background-color: rgb(134, 129, 129);
+>>>>>>> 43bf4bb4e184bace52202db410266a1b3de46319
 }
 p{
     font-weight: bold;
+    text-align: center;
 }
 .contentCenter{
     display: flex ;
@@ -27,4 +32,11 @@ p{
     width: 350px;
    text-align: justify;
     margin-left: 10rem;
+}
+a{
+    color:white ;
+}
+
+.title{
+    color: black;
 }
