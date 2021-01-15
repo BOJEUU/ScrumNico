@@ -1,18 +1,19 @@
-.bg{
-    background-color: rgb(134, 129, 129);
-}
+
 p{
     font-weight: bold;
-    text-align: center;
+    text-align: left;
+    margin-left: 3rem;
+    margin-top: 3rem;
+    font-style: italic;
 }
 .contentCenter{
     display: flex ;
     flex-direction: row;
     justify-content: space-around;
 }
-
-a{
-    color:white ;
+li{
+    list-style: none;
+    text-align: center;
 }
 .justifyContentCenter{
     display: flex ;
