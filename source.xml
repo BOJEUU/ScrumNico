@@ -66,7 +66,7 @@
     <page id="3">
         <menu>Nos clients témoignent</menu>
         <title>Avis clients - Maçonnerie Ocordo</title>
-        <content><![CDATA[<h1 class="title  shadow p-3 mb-5 bg-dark W-50 rounded text-center text-white mt-5">Nos clients témoignent</h1>
+        <content><![CDATA[<h1 class="title shadow p-3 mb-5 bg-dark W-50 rounded text-center text-white mt-5">Nos clients témoignent</h1>
 <div class="testimonials-list d-flex flex-wrap justify-content-around">
     <div class="quote shadow p-3 mb-5 col-12 col-sm-5 bg-white rounded">
         <h2 class="titleTwo">Rénovation transformation</h2>
