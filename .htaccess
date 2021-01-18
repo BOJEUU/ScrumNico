@@ -4,3 +4,5 @@ RewriteRule ^1.html$ index.php?page=accueil
 RewriteRule ^2.html$ index.php?page=quiSommesNous
 RewriteRule ^3.html$ index.php?page=nosClients
 RewriteRule ^4.html$ index.php?page=contact
+
+ErrorDocument 404 /error.php
